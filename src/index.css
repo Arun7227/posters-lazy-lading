@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-bg{
+  background-image: url('./assets/nav_bar.png');
+  
+}
+
+.search-d-animation{
+  animation: expand .4s ease-in forwards;
+}
+
+@keyframes expand {
+  0%{
+     transform: scaleX(0);
+     transform-origin: right;
+  }
+  100%{
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  
+}

@@ -1,0 +1,1 @@
+export let baseApi=process.env.baseApi || "https://test.create.diagnal.com"
